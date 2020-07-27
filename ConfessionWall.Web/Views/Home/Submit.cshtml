@@ -1,0 +1,36 @@
+﻿@model ConfessionWall.Entities.Message
+
+<div>
+    <h2>表白啦!</h2>
+    <p>请填写正确的信息, 方便她找到你.</p>
+
+    <form method="post" asp-action="Submit">
+        <div class="form-group">
+            <label for="YourName">你的名称</label>
+            <input type="text" class="form-control" asp-for="YourName">
+        </div>
+        <div class="form-group">
+            <label for="YourEmail">你的邮箱</label>
+            <input type="text" class="form-control" asp-for="YourEmail">
+        </div>
+        <div class="form-group">
+            <label for="YourQq">你的QQ</label>
+            <input type="text" class="form-control" asp-for="YourQq">
+        </div>
+        <div class="form-group">
+            <label for="HerName">她的名称</label>
+            <input type="text" class="form-control" asp-for="TaName">
+        </div>
+        <div class="form-group">
+            <label for="Tell">你想对她说</label>
+            <textarea class="form-control" asp-for="Content" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="ExtendImage">附加图片</label>
+            <input type="text" class="form-control" asp-for="Image">
+        </div>
+        <button type="submit" class="btn btn-primary">发射....</button>
+    </form>
+
+    <div asp-validation-summary="All"></div>
+</div>

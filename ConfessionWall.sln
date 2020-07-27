@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfessionWall.Web", "ConfessionWall.Web\ConfessionWall.Web.csproj", "{6664BC93-D44E-4A9E-B8CB-700E0D28A8E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfessionWall.Entities", "ConfessionWall.Entities\ConfessionWall.Entities.csproj", "{51961FD1-CCF0-4123-97BA-8C70357A72B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6664BC93-D44E-4A9E-B8CB-700E0D28A8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6664BC93-D44E-4A9E-B8CB-700E0D28A8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6664BC93-D44E-4A9E-B8CB-700E0D28A8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6664BC93-D44E-4A9E-B8CB-700E0D28A8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51961FD1-CCF0-4123-97BA-8C70357A72B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51961FD1-CCF0-4123-97BA-8C70357A72B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51961FD1-CCF0-4123-97BA-8C70357A72B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51961FD1-CCF0-4123-97BA-8C70357A72B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8576D22-379B-4802-A076-E12F8430AB5F}
+	EndGlobalSection
+EndGlobal

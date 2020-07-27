@@ -1,0 +1,35 @@
+﻿@model IList<ConfessionWall.Entities.Message>
+
+@{
+    ViewData["Title"] = "首页";
+}
+
+<div class="text-center">
+    <h1 class="display-4">
+        看看别人的表白吧！
+    </h1>
+    <p>
+        快来表白吧！ <a href="/Home/Submit">戳我戳我！</a>
+    </p>
+    
+    <ul class="list-group">
+        @foreach (var message in @Model)
+        {
+            <li class="list-group-item">
+                <div class="card" style="width: 18rem; text-align: center">
+                    <div class="card-body">
+                        <h5 class="card-title">@message.YourName</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@message.PublishTime.ToString()</h6>
+                        <p class="card-text">
+                            <p>@message.YourName 对 @message.TaName 的表白.</p>
+                            <p>表白人QQ: @message.YourQq</p>
+                            <p>表白人电子邮件: @message.YourEmail</p>
+                            <p>@message.Content</p>
+                            <img src="@message.Image"/>
+                        </p>
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
